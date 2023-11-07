@@ -1,0 +1,146 @@
+{
+    "menu_place": 1,
+    "menu_name": "Stearter",
+    "dishes": [
+        {
+            "name": "Neverland",
+            "expense": 1000,
+            "profit": 100,
+            "amount": 10
+        },
+        {
+            "name": "Trag",
+            "expense": 430,
+            "profit": 40,
+            "amount": 5
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Glup",
+            "expense": 200,
+            "profit": 100,
+            "amount": 30
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        },
+        {
+            "name": "Opiat' eta martini",
+            "expense": 1000,
+            "profit": 1000,
+            "amount": 2
+        }
+    ]
+}

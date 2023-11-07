@@ -1,0 +1,46 @@
+{
+	"menu_place": 2,
+	"menu_name": "Cafe La Gestapo",
+
+	"dishes": [
+		{
+			"name": "Potato",
+			"expence": 100,
+			"profit": 20,
+			"amount": 30
+		},
+		{
+			"name": "Meat",
+			"expence": 230,
+			"profit": 40,
+			"amount": 15
+		},
+		{
+			"name": "Vegetables",
+			"expence": 190,
+			"profit": 90,
+			"amount": 19
+		}
+	],
+
+	"drinks": [
+		{
+			"name": "Water",
+			"expence": 5,
+			"profit": 20,
+			"amount": 100
+		},
+		{
+			"name": "Cola",
+			"expence": 100,
+			"profit": 45,
+			"amount": 60
+		},
+		{
+			"name": "Lemonade",
+			"expence": 200,
+			"profit": 75,
+			"amount": 30
+		}
+	]
+}

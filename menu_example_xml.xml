@@ -1,0 +1,12 @@
+<Menu menu_place="1" menu_name="Costa Rika">
+    <dishes>
+        <Dish name="Potato" expense="125" profit="25" amount="15"/>
+        <Dish name="MeatBalls" expense="225" profit="50" amount="9"/>
+        <Dish name="Rice" expense="100" profit="60" amount="33"/>
+        <Dish name="Momento" expense="999" profit="129" amount="2"/>
+    </dishes>
+	<drinks>
+        <Drink name="Water" expense="100" profit="80" amount="50"/>
+        <Drink name="Dali" expense="50" profit="10" amount="15"/>
+    </drinks>
+</Menu>
