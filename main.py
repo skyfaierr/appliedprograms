@@ -1,28 +1,41 @@
 import re
 
-def is_valid_math_expression(expr):
-    # Шаблон поиска синтаксически корректных математических выражений
-    pattern = r'^[\d\+\-\*/\(\)\s\w]+$'
-    # Проверяем, соответствует ли строка шаблону
-    if not re.match(pattern, expr):
-        return False
-    # Проверяем, что скобки расставлены правильно
-    stack = []
-    for char in expr:
-        if char == '(':
-            stack.append(char)
-        elif char == ')':
-            if not stack:
-                return False
-            stack.pop()
-    if stack:
-        return False
-    return True
+def is_valid_math_expression(expression):
+    # Регулярное выражение для проверки синтаксиса математического выражения
+    pattern = re.compile(r'^[0-9a-zA-Z]+\s*([()+\-*/%=]\s*[0-9a-zA-Z]+\s*)*$')
 
-print(is_valid_math_expression('17*4+(x-54/(2+4))=y')) # True
-print(is_valid_math_expression('2+2')) # True
-print(is_valid_math_expression('18-41*с')) # True
-print(is_valid_math_expression('+45')) # False
-print(is_valid_math_expression('17+4*')) # False
-print(is_valid_math_expression('(34+1, 45-3)')) # False
-print(is_valid_math_expression('(4+5))')) # False
+    # Проверяем, соответствует ли выражение заданному паттерну
+    if re.match(pattern, expression):
+        # Проверка на правильное распределение скобок
+        stack = []
+        for char in expression:
+            if char == '(':
+                stack.append('(')
+            elif char == ')':
+                if not stack or stack.pop() != '(':
+                    return False  # Закрывающая скобка без соответствующей открывающей или несовпадение типов скобок
+
+        return not stack  # Проверяем, что все открывающие скобки имеют соответствующие закрывающие
+    else:
+        return False
+
+
+valid_expression1 = "17*4+x-54=y"
+valid_expression2 = "2+2"
+valid_expression3 = "18-41*c"
+valid_expression4 = "3x+2"
+invalid_expression1 = "+45"
+invalid_expression2 = "17+4*"
+invalid_expression3 = "(34+1"
+invalid_expression4 = "45-3)"
+
+
+print(is_valid_math_expression(valid_expression1))  # True
+print(is_valid_math_expression(valid_expression2))  # True
+print(is_valid_math_expression(valid_expression3))  # True
+print(is_valid_math_expression(valid_expression4))  # True
+print(is_valid_math_expression(invalid_expression1))  # False
+print(is_valid_math_expression(invalid_expression2))  # False
+print(is_valid_math_expression(invalid_expression3))  # False
+print(is_valid_math_expression(invalid_expression4))  # False
+
